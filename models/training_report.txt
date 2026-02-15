@@ -1,0 +1,30 @@
+============================================================
+  CRYPTO ML MODEL TRAINING REPORT
+============================================================
+
+Data file: data/sample_with_indicators.csv
+Total samples: 301
+Features: 73
+
+============================================================
+  MODEL PERFORMANCE COMPARISON
+============================================================
+
+Random Forest Classifier:
+  Accuracy:  0.5636
+  Precision: 0.3236
+  Recall:    0.5636
+  F1 Score:  0.4111
+
+XGBoost Classifier:
+  Accuracy:  0.5273
+  Precision: 0.5716
+  Recall:    0.5273
+  F1 Score:  0.4431
+
+XGBoost Regressor:
+  RMSE:      0.026005
+  MAE:       0.019499
+  R² Score:  -0.232341
+
+============================================================
